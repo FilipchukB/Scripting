@@ -1,5 +1,5 @@
 #!/bin/bash
-exec > sys_info_proc.txt
+exec > sys_info_proc.log
 center()
 { 
 IFS=""

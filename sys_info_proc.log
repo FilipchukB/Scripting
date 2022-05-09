@@ -1,0 +1,104 @@
+                                   Час роботи
+ 20:03:43 up 20 min,  1 user,  load average: 1,13, 1,02, 0,62
+                              Поточні користувачі
+ 20:03:43 up 20 min,  1 user,  load average: 1,13, 1,02, 0,62
+КОР.  TTY      З               LOGIN@   IDLE   JCPU   PCPU WHAT
+dranik   :1       :1               19:43   ?xdm?  10:57   0,00s /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+                                 Останні логіни
+dranik   :1           :1               Mon May  9 19:43   still logged in
+reboot   system boot  5.13.0-40-generi Mon May  9 19:43   still running
+dranik   :1           :1               Mon May  9 14:46 - down   (04:56)
+reboot   system boot  5.13.0-40-generi Mon May  9 14:44 - 19:42  (04:57)
+dranik   :1           :1               Mon May  9 09:53 - down   (02:18)
+reboot   system boot  5.13.0-40-generi Mon May  9 09:22 - 12:11  (02:49)
+dranik   :1           :1               Sun May  8 15:44 - down   (15:29)
+reboot   system boot  5.13.0-40-generi Sun May  8 15:43 - 07:13  (15:29)
+dranik   :1           :1               Sun May  8 10:26 - crash  (05:17)
+reboot   system boot  5.13.0-40-generi Sun May  8 10:26 - 07:13  (20:47)
+
+wtmp розпочинає Sun Apr 17 16:52:39 2022
+                    ТОП-10 процесів за використанням ОЗУ/ЦП
+[?1h=[?25l[H[2J(B[mtop - 20:03:44 up 20 min,  1 user,  load average: 1,12, 1,02, 0,63(B[m[39;49m(B[m[39;49m[K
+Завдання:(B[m[39;49m[1m 406 (B[m[39;49mзагалом,(B[m[39;49m[1m   1 (B[m[39;49mпрацює,(B[m[39;49m[1m 405 (B[m[39;49mприспано,(B[m[39;49m[1m   0 (B[m[39;49mзупинено,(B[m[39;49m[1m   0 (B[m[39;49mзомбі(B[m[39;49m(B[m[39;49m[K
+%Процесор:(B[m[39;49m[1m  4,9 (B[m[39;49mus,(B[m[39;49m[1m  1,9 (B[m[39;49msy,(B[m[39;49m[1m  0,0 (B[m[39;49mni,(B[m[39;49m[1m 92,7 (B[m[39;49mid,(B[m[39;49m[1m  0,0 (B[m[39;49mwa,(B[m[39;49m[1m  0,0 (B[m[39;49mhi,(B[m[39;49m[1m  0,5 (B[m[39;49msi,(B[m[39;49m[1m  0,0 (B[m[39;49ms(B[m[39;49m(B[m[39;49m[K
+МіБ Пам :(B[m[39;49m[1m   7689,7 (B[m[39;49mзагал,(B[m[39;49m[1m   1052,5 (B[m[39;49mвільн,(B[m[39;49m[1m   3563,3 (B[m[39;49mвик,(B[m[39;49m[1m   3073,8 (B[m[39;49mбуф/кеш(B[m[39;49m(B[m[39;49m[K
+МіБ Своп:(B[m[39;49m[1m   2048,0 (B[m[39;49mзагал,(B[m[39;49m[1m   2048,0 (B[m[39;49mвільн,(B[m[39;49m[1m      0,0 (B[m[39;49mвик.(B[m[39;49m[1m   3739,4 (B[m[39;49mдост Пам (B[m[39;49m(B[m[39;49m[K
+[K
+[7m    PID КОР.      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND  (B[m[39;49m[K
+(B[m   2012 dranik    20   0 4107668 437508 118196 S  12,5   5,6   0:44.77 gnome-s+ (B[m[39;49m[K
+(B[m   3718 dranik    20   0 1985608 404632 158156 S  12,5   5,1   4:02.83 telegra+ (B[m[39;49m[K
+(B[m   4174 dranik    20   0 1069756  74988  49272 S  12,5   1,0   0:07.71 nautilus (B[m[39;49m[K
+                                    TCP/Udp
+Активні з’єднання з інтернетом (only servers)
+Прото Надісл Отрим  Локальна адреса Віддалена адреса Стан       PID/Program name    
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      788/systemd-resolve 
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      831/cupsd           
+tcp6       0      0 ::1:631                 :::*                    LISTEN      831/cupsd           
+udp        0      0 172.16.0.2:39006        0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 172.16.0.2:55417        0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 192.168.142.33:43263    0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 192.168.206.249:55737   0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 192.168.142.33:47596    0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 192.168.206.249:51712   0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 192.168.206.249:43743   0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 172.16.0.2:60284        0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 192.168.142.33:60407    0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 192.168.206.249:56325   0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 192.168.206.249:39953   0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 172.16.0.2:56360        0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 192.168.142.33:44090    0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 192.168.142.33:52542    0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 192.168.206.249:60874   0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 192.168.142.33:52895    0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 192.168.142.33:36575    0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 192.168.206.249:40819   0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 172.16.0.2:36784        0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 172.16.0.2:45011        0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 127.0.0.53:53           0.0.0.0:*                           788/systemd-resolve 
+udp        0      0 192.168.142.33:41040    0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 0.0.0.0:49272           0.0.0.0:*                           827/avahi-daemon: r 
+udp        0      0 172.16.0.2:41259        0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 192.168.142.33:45452    0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 0.0.0.0:631             0.0.0.0:*                           936/cups-browsed    
+udp        0      0 172.16.0.2:58473        0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                           4898/chrome --enabl 
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                           4898/chrome --enabl 
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                           4898/chrome --enabl 
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           827/avahi-daemon: r 
+udp        0      0 192.168.206.249:38191   0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 172.16.0.2:38255        0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 192.168.206.249:38607   0.0.0.0:*                           3718/telegram-deskt 
+udp        0      0 172.16.0.2:42852        0.0.0.0:*                           3718/telegram-deskt 
+udp6       0      0 fd01:5ca1:ab1e:8a:36830 :::*                                3718/telegram-deskt 
+udp6       0      0 fd01:5ca1:ab1e:8a:32889 :::*                                3718/telegram-deskt 
+udp6       0      0 :::33358                :::*                                827/avahi-daemon: r 
+udp6       0      0 :::5353                 :::*                                827/avahi-daemon: r 
+udp6       0      0 :::58852                :::*                                2732/teams --type=r 
+                              Віртуальний простір
+Своп.:        2047           0        2047
+                                Дисковий простір
+Ф. система      Розм   Вик  Дост Вик% змонтований на
+udev            3,8G     0  3,8G   0% /dev
+tmpfs           769M  2,8M  767M   1% /run
+/dev/nvme0n1p2  468G  134G  311G  31% /
+tmpfs           3,8G   96M  3,7G   3% /dev/shm
+tmpfs           5,0M  4,0K  5,0M   1% /run/lock
+tmpfs           3,8G     0  3,8G   0% /sys/fs/cgroup
+/dev/loop0      128K  128K     0 100% /snap/bare/5
+/dev/loop1       62M   62M     0 100% /snap/core20/1405
+/dev/loop3      219M  219M     0 100% /snap/gnome-3-34-1804/77
+/dev/loop4       55M   55M     0 100% /snap/snap-store/558
+/dev/loop2       62M   62M     0 100% /snap/core20/1434
+/dev/loop5      191M  191M     0 100% /snap/inkscape/10154
+/dev/loop6       44M   44M     0 100% /snap/snapd/15177
+/dev/loop7      249M  249M     0 100% /snap/gnome-3-38-2004/99
+/dev/loop8      104M  104M     0 100% /snap/slack/61
+/dev/nvme0n1p1  511M  5,3M  506M   2% /boot/efi
+/dev/loop9       56M   56M     0 100% /snap/core18/2344
+/dev/loop10      45M   45M     0 100% /snap/snapd/15534
+/dev/loop11     321M  321M     0 100% /snap/telegram-desktop/3966
+/dev/loop12     321M  321M     0 100% /snap/telegram-desktop/3975
+/dev/loop13      66M   66M     0 100% /snap/gtk-common-themes/1519
+/dev/loop14     566M  566M     0 100% /snap/pycharm-community/276
+tmpfs           769M   20K  769M   1% /run/user/125
+tmpfs           769M  4,9M  765M   1% /run/user/1000
